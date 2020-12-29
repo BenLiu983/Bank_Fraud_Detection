@@ -8,3 +8,4 @@ This project is based on a transaction dataset that contains information about 8
 
 # Data Preparation
 Since this dataset is in line-delimited JSON format, I firstly transfrom it to a dataframe format.
+![readme_plot1](https://github.com/BenLiu983/Bank_Fraud_Detection/issues/1#issue-776090095)
