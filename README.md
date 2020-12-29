@@ -8,8 +8,18 @@ This project is based on a transaction dataset that contains information about 8
 
 # Data Preparation
 
+![ori_data](https://user-images.githubusercontent.com/64850893/103314535-68da1200-49f1-11eb-8c3f-4c007ba870f2.jpg)
+
 Since this dataset is in line-delimited JSON format, I firstly transfromed it to a dataframe format.
 
 ![data](https://user-images.githubusercontent.com/64850893/103314331-c326a300-49f0-11eb-8381-0bae91605374.jpg)
+
+# EDA
+I utilized my domain knowlegdge in banking to select a few key features, and conducted descriptive analysis. Take the column "postEntryMode" for example:
+Among all the fraud transactions, 
+
+
+Among the non-fraud transaxtions,
+
 
 
