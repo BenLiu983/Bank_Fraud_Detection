@@ -43,7 +43,14 @@ Used MinMax scaling before applying model.
 
 <img src="https://user-images.githubusercontent.com/64850893/103316089-6679b700-49f5-11eb-8b2b-5d5e5dc7e7ba.jpg" width="600" height="300">
 
+Compare the 2 roc_auc results before and after scaling the dataframe, it can be concluded that scaling the dataframe increases the value of the metric. Therefore, I used the scaling dataframe in the following modeling experiments.
+
 ## Model 2 - XGBoost
+Similar to the previous prodecure
 
 ## Model 3 - lightGBM
+
+## Result
+
+## Future
 
