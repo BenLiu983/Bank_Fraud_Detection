@@ -7,4 +7,4 @@ This project is based on a transaction dataset that contains information about 8
 
 
 # Data Preparation
-After feature selection, the target dataset contains nearly 1 million records and 10 major features, including 5 numeric features and 5 categorical features.
+Since this dataset is in line-delimited JSON format, I firstly transfrom it to a dataframe format.
