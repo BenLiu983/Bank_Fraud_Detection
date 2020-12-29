@@ -7,6 +7,9 @@ This project is based on a transaction dataset that contains information about 8
 
 
 # Data Preparation
-Since this dataset is in line-delimited JSON format, I firstly transfrom it to a dataframe format.
+
+Since this dataset is in line-delimited JSON format, I firstly transfromed it to a dataframe format.
+
 ![data](https://user-images.githubusercontent.com/64850893/103314331-c326a300-49f0-11eb-8381-0bae91605374.jpg)
+
 
