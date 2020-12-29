@@ -18,8 +18,11 @@ Since this dataset is in line-delimited JSON format, I firstly transfromed it to
 I utilized my domain knowlegdge in banking to select a few key features, and conducted descriptive analysis. Take the column "postEntryMode" for example:
 Among all the fraud transactions, 
 
+![fraud_post](https://user-images.githubusercontent.com/64850893/103315082-94a9c780-49f2-11eb-854c-0aec766b7e63.jpg)
 
 Among the non-fraud transaxtions,
+
+
 
 
 
