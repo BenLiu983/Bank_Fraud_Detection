@@ -33,8 +33,14 @@ Case 2: explanatory variables include 'cvvNotSame','amountOver', 'posEM_new', 'h
 
 Case 3: explanatory variables include 'cvvNotSame','amountOver', 'posEM_new', 'hour', 'transactionAmount', 'availableMoney', 'cardPresent', 'transactionType'
 
-## Model 1 - Logistic regression (Case 1)
-Implemented train-test split, cross validation, fitting the model, plotting roc curve
+## Model 1 - Logistic regression (Case 2)
+Implemented train-test split, cross validation, fitting the model, plotting roc curve.
+
+![roc_log1](https://user-images.githubusercontent.com/64850893/103315900-f23f1380-49f4-11eb-8b8a-bc94d38e0d7d.jpg)
+
+## Model 1.2 - Logistic regression after Scaling (Case 2)
+Used MinMax scaling before applying model.
+
 
 
 ## Model 2 - XGBoost
