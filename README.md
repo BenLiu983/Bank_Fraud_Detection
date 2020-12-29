@@ -41,8 +41,7 @@ Implemented train-test split, cross validation, fitting the model, plotting roc 
 ## Model 1.2 - Logistic regression after Scaling (Case 2)
 Used MinMax scaling before applying model.
 
-![roc_log2](https://user-images.githubusercontent.com/64850893/103316089-6679b700-49f5-11eb-8b2b-5d5e5dc7e7ba.jpg)
-
+![roc_log2]<img src="https://user-images.githubusercontent.com/64850893/103316089-6679b700-49f5-11eb-8b2b-5d5e5dc7e7ba.jpg", width="100" height="100")
 
 ## Model 2 - XGBoost
 
