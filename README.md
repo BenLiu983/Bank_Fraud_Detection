@@ -18,11 +18,11 @@ Since this dataset is in line-delimited JSON format, I firstly transfromed it to
 I utilized my domain knowlegdge in banking to select a few key features, and conducted descriptive analysis. Take the column "postEntryMode" for example:
 Among all the fraud transactions, 
 
-![fraud_post](https://user-images.githubusercontent.com/64850893/103315082-94a9c780-49f2-11eb-854c-0aec766b7e63.jpg)
+<img src="https://user-images.githubusercontent.com/64850893/103315082-94a9c780-49f2-11eb-854c-0aec766b7e63.jpg" width="600" height="300">
 
 Among the non-fraud transaxtions,
 
-![no_fraud_post](https://user-images.githubusercontent.com/64850893/103315273-14d02d00-49f3-11eb-9a83-596a7bde10fd.jpg)
+<img src="https://user-images.githubusercontent.com/64850893/103315273-14d02d00-49f3-11eb-9a83-596a7bde10fd.jpg" width="600" height="300">
 
 From the above 2 plots, it seems like "posEntryMode" has a influence on whether it is a fraud or not. So this feature will be added to my model.
 
@@ -36,12 +36,12 @@ Case 3: explanatory variables include 'cvvNotSame','amountOver', 'posEM_new', 'h
 ## Model 1 - Logistic regression (Case 2)
 Implemented train-test split, cross validation, fitting the model, plotting roc curve.
 
-![roc_log1](https://user-images.githubusercontent.com/64850893/103315900-f23f1380-49f4-11eb-8b8a-bc94d38e0d7d.jpg)
+<img src="https://user-images.githubusercontent.com/64850893/103315900-f23f1380-49f4-11eb-8b8a-bc94d38e0d7d.jpg" width="600" height="300">
 
 ## Model 1.2 - Logistic regression after Scaling (Case 2)
 Used MinMax scaling before applying model.
 
-![roc_log2]<img src="https://user-images.githubusercontent.com/64850893/103316089-6679b700-49f5-11eb-8b2b-5d5e5dc7e7ba.jpg", width="100" height="100")
+<img src="https://user-images.githubusercontent.com/64850893/103316089-6679b700-49f5-11eb-8b2b-5d5e5dc7e7ba.jpg" width="600" height="300">
 
 ## Model 2 - XGBoost
 
