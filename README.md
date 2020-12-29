@@ -22,7 +22,22 @@ Among all the fraud transactions,
 
 Among the non-fraud transaxtions,
 
+![no_fraud_post](https://user-images.githubusercontent.com/64850893/103315273-14d02d00-49f3-11eb-9a83-596a7bde10fd.jpg)
+
+From the above 2 plots, it seems like "posEntryMode" has a influence on whether it is a fraud or not. So this feature will be added to my model.
+
+## Feature engineering (3 cases)
+Case 1: explanatory variables include 'cvvNotSame','amountOver', 'posEM_new', 'hour', 'transactionAmount', 'availableMoney', 'cardPresent'
+
+Case 2: explanatory variables include 'cvvNotSame','amountOver', 'posEM_new', 'hour', 'transactionAmount', 'availableMoney', 'cardPresent', 'merchantCategoryCode'
+
+Case 3: explanatory variables include 'cvvNotSame','amountOver', 'posEM_new', 'hour', 'transactionAmount', 'availableMoney', 'cardPresent', 'transactionType'
+
+## Model 1 - Logistic regression (Case 1)
+Implemented train-test split, cross validation, fitting the model, plotting roc curve
 
 
+## Model 2 - XGBoost
 
+## Model 3 - lightGBM
 
