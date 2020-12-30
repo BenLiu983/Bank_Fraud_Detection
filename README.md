@@ -45,12 +45,12 @@ Used MinMax scaling before applying model.
 
 Compare the 2 roc_auc results before and after scaling the dataframe, it can be concluded that scaling the dataframe increases the value of the metric. Therefore, I used the scaling dataframe in the following modeling experiments.
 
-## Model 2 - XGBoost
+## Model 2 - XGBoost （Case 2）
 In addition to the previous prodecure, I utilize the grid search to conduct the hypoparameter tuning (learning rate, number of estimators)
 
 
 
-## Model 3 - lightGBM
+## Model 3 - lightGBM (Case 2)
 Similar to XGBoost, I use the grid search to conduct the hypoparameter tuning (learning rate, number of estimators, max_depth)
 
 
