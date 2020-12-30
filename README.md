@@ -41,7 +41,7 @@ Implemented train-test split, cross validation, fitting the model, plotting roc 
 ## Model 1.2 - Logistic regression after Scaling (Case 2)
 Used MinMax scaling before applying model.
 
-<img src="https://user-images.githubusercontent.com/64850893/103316089-6679b700-49f5-11eb-8b2b-5d5e5dc7e7ba.jpg" width="600" height="300">
+<img src="https://user-images.githubusercontent.com/64850893/103326071-ba4bc680-4a1c-11eb-95a1-a29c39670e93.jpg" width="600" height="300">
 
 Compare the 2 roc_auc results before and after scaling the dataframe, it can be concluded that scaling the dataframe increases the value of the metric. Therefore, I used the scaling dataframe in the following modeling experiments.
 
