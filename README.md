@@ -48,12 +48,12 @@ Compare the 2 roc_auc results before and after scaling the dataframe, it can be 
 ## Model 2 - XGBoost （Case 2）
 In addition to the previous prodecure, I utilize the grid search to conduct the hypoparameter tuning (learning rate, number of estimators)
 
-
+<img src="https://user-images.githubusercontent.com/64850893/103326158-08f96080-4a1d-11eb-924a-d5d016c69cdb.jpg" width="600" height="300">
 
 ## Model 3 - lightGBM (Case 2)
 Similar to XGBoost, I use the grid search to conduct the hypoparameter tuning (learning rate, number of estimators, max_depth)
 
-
+<img src="https://user-images.githubusercontent.com/64850893/103326158-08f96080-4a1d-11eb-924a-d5d016c69cdb.jpg" width="600" height="300">
 
 ## Conclusion 
 
