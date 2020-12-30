@@ -53,7 +53,7 @@ In addition to the previous prodecure, I utilize the grid search to conduct the 
 ## Model 3 - lightGBM (Case 2)
 Similar to XGBoost, I use the grid search to conduct the hypoparameter tuning (learning rate, number of estimators, max_depth)
 
-<img src="https://user-images.githubusercontent.com/64850893/103326158-08f96080-4a1d-11eb-924a-d5d016c69cdb.jpg" width="600" height="300">
+<img src="https://user-images.githubusercontent.com/64850893/103326210-40680d00-4a1d-11eb-9754-b1959e0d7491.jpg" width="600" height="300">
 
 ## Conclusion 
 
