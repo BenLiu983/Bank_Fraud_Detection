@@ -36,7 +36,7 @@ Case 3: explanatory variables include 'cvvNotSame','amountOver', 'posEM_new', 'h
 ## Model 1 - Logistic regression (Case 2)
 Implemented train-test split, cross validation, fitting the model, plotting roc curve.
 
-<img src="https://user-images.githubusercontent.com/64850893/103315900-f23f1380-49f4-11eb-8b8a-bc94d38e0d7d.jpg" width="600" height="300">
+<img src="https://user-images.githubusercontent.com/64850893/103326030-82dd1a00-4a1c-11eb-918e-9475ff45ff1a.jpg" width="600" height="300">
 
 ## Model 1.2 - Logistic regression after Scaling (Case 2)
 Used MinMax scaling before applying model.
