@@ -46,11 +46,19 @@ Used MinMax scaling before applying model.
 Compare the 2 roc_auc results before and after scaling the dataframe, it can be concluded that scaling the dataframe increases the value of the metric. Therefore, I used the scaling dataframe in the following modeling experiments.
 
 ## Model 2 - XGBoost
-Similar to the previous prodecure
+In addition to the previous prodecure, I utilize the grid search to conduct the hypoparameter tuning (learning rate, number of estimators)
+
+
 
 ## Model 3 - lightGBM
+Similar to XGBoost, I use the grid search to conduct the hypoparameter tuning (learning rate, number of estimators, max_depth)
 
-## Result
+
+
+## Conclusion 
+
+After the comparing the roc_auc of the 3 models in 3 cases, the optimal model is the XGBoost with the feature combanation case 2, achieving 0.76 for the roc_auc and increasing the base by 7%. However, a disadvantage of XGBoost is that its running time is relatively slow. Therefore, lightGMB can be applied when the efficiency is a significant factor. 
 
 ## Future
 
+In the future investigation, I will attempt to experiment more kinds of feature combination. Additionally, more machine learning models with hyperparameter tuning would be applied.
