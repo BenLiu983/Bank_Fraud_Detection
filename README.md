@@ -57,7 +57,10 @@ Similar to XGBoost, I use the grid search to conduct the hypoparameter tuning (l
 
 ## Conclusion 
 
-After the comparing the roc_auc of the 3 models in 3 cases, the optimal model is the XGBoost with the feature combanation case 2, achieving 0.76 for the roc_auc and increasing the base by 7%. However, a disadvantage of XGBoost is that its running time is relatively slow. Therefore, lightGMB can be applied when the efficiency is a significant factor. 
+After the comparing the roc_auc of the 3 models in 3 cases, both XGBoost and lightGBM with the feature combanation case 2, achieved the highest roc_auc 0.76, increasing the base by 7%. However, a disadvantage of XGBoost is that its running time is relatively slow. Therefore, lightGMB with case 2 was the optimal model. To further investigate this model, it can be concluded "transactionAmount", "availableMoney", "posEM_new" are some of the key factors that would determine whether a transaction is fraud or not, according to the following plot.
+
+<img src="https://user-images.githubusercontent.com/64850893/103326210-40680d00-4a1d-11eb-9754-b1959e0d7491.jpg" width="600" height="300">
+
 
 ## Future
 
