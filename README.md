@@ -14,11 +14,11 @@ Since this dataset is in line-delimited JSON format, I firstly transfromed it to
 
 # EDA
 I utilized my domain knowlegdge in banking to select a few key features, and conducted descriptive analysis. Take the column "postEntryMode" for example:
-Among all the fraud transactions, 
+Among all the fraudulent transactions, 
 
 <img src="https://user-images.githubusercontent.com/64850893/103315082-94a9c780-49f2-11eb-854c-0aec766b7e63.jpg" width="600" height="300">
 
-Among the non-fraud transactions,
+Among the not fraudulent transactions,
 
 <img src="https://user-images.githubusercontent.com/64850893/103315273-14d02d00-49f3-11eb-9a83-596a7bde10fd.jpg" width="600" height="300">
 
