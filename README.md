@@ -1,7 +1,15 @@
 # Fraud Detection with Bank Transaction Data
 
-# Background
-Fraud is a significant problem for any bank. Fraud can take many forms, which involves many variables. This project is based on a transaction dataset that contains information about 800,000 records of a bank in Canada. The goal of this report is to build a predictive model to determine whether a given transaction will be fraudulent or not. The primary metric is roc_auc.
+# Introduction
+Background: Fraud is a significant problem for any bank. Fraud can take many forms, which involves large amount of variables.
+
+Data: This project is based on a credit card transaction dataset that contains information about 800,000 records and 29 features from a bank in Canada.
+
+Objective: The goal is to build a predictive model to determine whether a given transaction will be fraudulent or not. 
+
+# Methodology
+Since the fraud detection is a binary classification problem, I applied several classic supervised classification machine learning models, such as Logistic regression, XGBoost, and LightGBM. The primary metric would be ROC_AUC.
+
 
 # Data Preparation
 Original dataset:
